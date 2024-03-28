@@ -1,0 +1,60 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &5872155956613216797
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 4450347217913679703}
+  - component: {fileID: 8567733860466500717}
+  m_Layer: 0
+  m_Name: GameManager
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &4450347217913679703
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872155956613216797}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &8567733860466500717
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 5872155956613216797}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: a9c1bfeb3e07c774c8d40977a467aa3b, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  scoreText: {fileID: 6595863071769461221, guid: 2c0214c5535bb9b4ab61fbfab98a6644, type: 3}
+  deathMenu: {fileID: 6093002785788844108, guid: 84a62106f5e8a664891aac537715dff5, type: 3}
+  startMenu: {fileID: 5353489182992527824, guid: 2062ba9c2f18e12468775fed515ff2e5, type: 3}
+  scoreGroup: {fileID: 0}
+  finalScoreText: {fileID: 8645423099878993409, guid: ac0a50171be76f14a9b4ccb740c8d058, type: 3}
+  highScoreText: {fileID: 0}
+  finalHighScore: {fileID: 0}
+  thePlayer: {fileID: 1494349961148001000, guid: d96fc3227a3f37b44b01502e010c9dee, type: 3}
+  playGame: 0
+  lives:
+  - {fileID: 0}
+  - {fileID: 0}
+  fullHeart: {fileID: 21300000, guid: 6666e714637f58d45b3bfa5962abb26a, type: 3}
+  brokenHeart: {fileID: 21300000, guid: 0443001c71cdbc446a4341b54cc4b169, type: 3}

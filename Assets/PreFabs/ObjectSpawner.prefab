@@ -1,0 +1,57 @@
+%YAML 1.1
+%TAG !u! tag:unity3d.com,2011:
+--- !u!1 &1845417931568164111
+GameObject:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  serializedVersion: 6
+  m_Component:
+  - component: {fileID: 1906114937943996415}
+  - component: {fileID: -88790972696987631}
+  m_Layer: 0
+  m_Name: ObjectSpawner
+  m_TagString: Untagged
+  m_Icon: {fileID: 0}
+  m_NavMeshLayer: 0
+  m_StaticEditorFlags: 0
+  m_IsActive: 1
+--- !u!4 &1906114937943996415
+Transform:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845417931568164111}
+  serializedVersion: 2
+  m_LocalRotation: {x: 0, y: 0, z: 0, w: 1}
+  m_LocalPosition: {x: 0, y: 0, z: 0}
+  m_LocalScale: {x: 1, y: 1, z: 1}
+  m_ConstrainProportionsScale: 0
+  m_Children: []
+  m_Father: {fileID: 0}
+  m_LocalEulerAnglesHint: {x: 0, y: 0, z: 0}
+--- !u!114 &-88790972696987631
+MonoBehaviour:
+  m_ObjectHideFlags: 0
+  m_CorrespondingSourceObject: {fileID: 0}
+  m_PrefabInstance: {fileID: 0}
+  m_PrefabAsset: {fileID: 0}
+  m_GameObject: {fileID: 1845417931568164111}
+  m_Enabled: 1
+  m_EditorHideFlags: 0
+  m_Script: {fileID: 11500000, guid: 031a0fa23eba843268cd914c469649ea, type: 3}
+  m_Name: 
+  m_EditorClassIdentifier: 
+  droppedObjects:
+  - {fileID: 1357456853363145319, guid: 2d4fbe7e0033f7145a518d019d4bd6f2, type: 3}
+  - {fileID: 2628909444594101419, guid: 4db4ff8de9b35324da80fa1098941a10, type: 3}
+  - {fileID: 4295852948904764477, guid: 83de25012c95d4641be30a5115da2d48, type: 3}
+  - {fileID: 2628909444594101419, guid: 872cc8259de694fa0b1ee442fbefc2d4, type: 3}
+  - {fileID: 2628909444594101419, guid: 94f492f0ee5965a4ea09beecb6b3e15a, type: 3}
+  - {fileID: 4295852948904764477, guid: 110f4307bbd90400a8949bfa14732943, type: 3}
+  currplayer: {fileID: 1494349961148001000, guid: d96fc3227a3f37b44b01502e010c9dee, type: 3}
+  maxLeftSpawn: -6.25
+  maxRightSpawn: 6.25
+  maxBelowSpawn: 3

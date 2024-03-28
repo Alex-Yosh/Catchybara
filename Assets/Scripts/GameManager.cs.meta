@@ -1,0 +1,21 @@
+fileFormatVersion: 2
+guid: a9c1bfeb3e07c774c8d40977a467aa3b
+MonoImporter:
+  externalObjects: {}
+  serializedVersion: 2
+  defaultReferences:
+  - scoreText: {instanceID: 0}
+  - deathMenu: {instanceID: 0}
+  - startMenu: {instanceID: 0}
+  - scoreGroup: {instanceID: 0}
+  - finalScoreText: {instanceID: 0}
+  - highScoreText: {instanceID: 0}
+  - finalHighScore: {instanceID: 0}
+  - thePlayer: {instanceID: 0}
+  - audioSource: {instanceID: 0}
+  - startClickSFX: {fileID: 8300000, guid: 31b6f6d5b4b97e941b7596b8e6e24958, type: 3}
+  executionOrder: 0
+  icon: {instanceID: 0}
+  userData: 
+  assetBundleName: 
+  assetBundleVariant: 
